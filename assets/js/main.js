@@ -87,8 +87,8 @@ function randomNumber(min, max) {
 
 // ----- Snack 3
 let arrayNomi = ['alberto', 'michele','angelo','simone', 'laura', 'francesca'];
-let min = parseInt( prompt( `Inserisci un numero compreso fra 0 e ${arrayNomi.lenght - 1}`))
-let max = parseInt( prompt( `Inserisci un numero compreso fra 0 e ${arrayNomi.lenght - 1}`))
+let min = parseInt( prompt( `Inserisci un numero compreso fra 0 e ${arrayNomi.length - 1}`))
+let max = parseInt( prompt( `Inserisci un numero compreso fra 0 e ${arrayNomi.length - 1}`))
 
 function filterFunction(array, x, y) {
     
